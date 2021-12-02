@@ -1,0 +1,13 @@
+[package]
+name        = "aoc2021rust"
+description = ""
+edition     = "2018"
+version     = "0.1.0"
+authors     = ["crvdgc <ubikium@gmail.com>"]
+repository  = "https://github.com/crvdgc/aoc2021rust"
+include = ["src/**/*"]
+
+[dependencies]
+
+[dev-dependencies]
+
