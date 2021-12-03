@@ -11,5 +11,6 @@ fn main() {
 
     // day3
     let input = fs::read_to_string("data/day3.txt").expect("File not exist");
-    println!("{}", day3::part1(&input));
+    println!("{}", day3::part1(&input, 12));
+    println!("{}", day3::part2(&input, 12));
 }

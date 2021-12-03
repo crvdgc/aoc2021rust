@@ -1,9 +1,11 @@
+#[allow(dead_code)]
 enum Command {
     Forward,
     Up,
     Down,
 }
 
+#[allow(dead_code)]
 pub fn part1(input: &str) -> i32 {
     let mut depth: i32 = 0;
     let mut horizontal: i32 = 0;
@@ -26,6 +28,7 @@ pub fn part1(input: &str) -> i32 {
     return depth * horizontal;
 }
 
+#[allow(dead_code)]
 pub fn part2(input: &str) -> i32 {
     let mut depth: i32 = 0;
     let mut horizontal: i32 = 0;
