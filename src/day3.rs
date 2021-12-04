@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn part1(input: &str, l: usize) -> u32 {
     let mut n : u32 = 0;
     let mut zero: Vec<u32> = Vec::with_capacity(l);
@@ -30,6 +31,7 @@ pub fn part1(input: &str, l: usize) -> u32 {
     return gamma * epsilon;
 }
 
+#[allow(dead_code)]
 pub fn part2(input: &str, l: usize) -> u32 {
     let mut tree = build_tree(l);
     for line in input.lines() {
