@@ -2,9 +2,6 @@ use std::convert::TryInto;
 use std::collections::BTreeMap;
 
 pub fn part1(input: &str) -> u32 {
-    // let l1 = Line::new(0, 9, 5, 9);
-    // let l2 = Line::new(0, 9, 2, 9);
-    // return l1.num_of_intersect(&l2);
     let mut points: BTreeMap<(u32, u32), u32> = BTreeMap::new();
     for line in input.lines() {
         let cur_line = parse_line(line);
