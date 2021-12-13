@@ -1,5 +1,5 @@
 use std::fs;
-mod day8;
+mod day9;
 
 fn main() {
     // day2
@@ -32,7 +32,11 @@ fn main() {
     // println!("{}", day7::part2(&input));
 
     // day8
-    let input = fs::read_to_string("data/day8.txt").expect("File not exist");
+    // let input = fs::read_to_string("data/day8.txt").expect("File not exist");
     // println!("{}", day8::part1(&input));
-    println!("{}", day8::part2(&input));
+    // println!("{}", day8::part2(&input));
+
+    // day9
+    let input = fs::read_to_string("data/day9.txt").expect("File not found");
+    println!("{}", day9::part2(&input));
 }
